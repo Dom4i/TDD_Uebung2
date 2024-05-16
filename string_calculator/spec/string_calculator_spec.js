@@ -18,4 +18,8 @@ describe('String Calculator', function() {
 	it('should return "0" for an array without 3 and 5', function() {
 		expect(calculator.add([1, 2, 4, 6, 1])).toEqual(0);
 	});
+
+	it('should return "6" for this array [1, 2, 3, 4, 3, 3]', function() {
+		expect(calculator.add([1, 2, 3, 4, 3, 3])).toEqual(6);
+	});
 });
