@@ -16,6 +16,6 @@ describe('String Calculator', function() {
 	});
 
 	it('should return "0" for an array without 3 and 5', function() {
-		expect(calculator.add([1, 2, 4, 6, 1])).toEqual('0');
+		expect(calculator.add([1, 2, 4, 6, 1])).toEqual(0);
 	});
 });
