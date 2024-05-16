@@ -8,13 +8,14 @@ StringCalculator.prototype.add = function(string_numbers) {
 	if (string_numbers.length < 4 || string_numbers.length > 6) {
 		return 'You need to input 4-6 numbers';
 	} else {
-
-		string_numbers.forEach(number => {
-			if (number === 3) {
+		
+		
+		string_numbers.forEach(function(number) {
+			if (number === 3 ) {
 				result += 2;
 			}
 		});
 		return result;
 	}
-
+		
 };
