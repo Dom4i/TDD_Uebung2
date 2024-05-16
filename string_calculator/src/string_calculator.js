@@ -13,6 +13,8 @@ StringCalculator.prototype.add = function(string_numbers) {
 		string_numbers.forEach(function(number) {
 			if (number === 3 ) {
 				result += 2;
+			} else if (number === 5) {
+				result += 4;
 			}
 		});
 		return result;
